@@ -7,8 +7,8 @@ The Rest APIs:
 - GET `api/todo/:id` get todo by id
 - POST `api/todo` add new todo
 - PUT `api/todo/:id` update todo by id
-- GET `api/todo/ongoing/:id` mark ongoing todo as done
-- GET `api/todo/done/:id` mark done todo as ongoing
+- PUT `api/todo/ongoing/:id` mark ongoing todo as done
+- PUT `api/todo/done/:id` mark done todo as ongoing
 - DELETE `api/todo/:id` remove todo by id
 
 ## Project setup
